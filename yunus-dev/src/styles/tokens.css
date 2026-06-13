@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-base:        #FAF7F2;
+    --bg-surface:     #F4EFE6;
+    --bg-subtle:      #EDE5D8;
+    --bg-muted:       #E0D6C8;
+
+    --text-primary:   #1A1510;
+    --text-secondary: #2E2820;
+    --text-muted:     #6B5C48;
+    --text-faint:     #9C8E7A;
+
+    --border-default: #D8CEBC;
+    --border-strong:  #C4B49C;
+    --border-subtle:  #EDE5D8;
+
+    --accent:         #4E7068;
+    --accent-hover:   #3D5A53;
+    --accent-active:  #2E4540;
+    --accent-subtle:  #E8F0EE;
+    --accent-text:    #2E4540;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-base:        #1A1710;
+      --bg-surface:     #221F16;
+      --bg-subtle:      #2C2820;
+      --bg-muted:       #38332A;
+
+      --text-primary:   #F0EBE2;
+      --text-secondary: #C8BFB0;
+      --text-muted:     #948070;
+      --text-faint:     #6A5E52;
+
+      --border-default: #3E3830;
+      --border-strong:  #56504A;
+      --border-subtle:  #2C2820;
+
+      --accent:         #6A9A8E;
+      --accent-hover:   #7EB0A4;
+      --accent-active:  #90C4B8;
+      --accent-subtle:  #1E2E2B;
+      --accent-text:    #90C4B8;
+    }
+  }
+
+  * {
+    border-color: var(--border-default);
+  }
+
+  body {
+    background-color: var(--bg-base);
+    color: var(--text-secondary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Focus visible için tutarlı stil */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Prose overrides — MDX blog içeriği için */
+  .prose {
+    --tw-prose-body:        var(--text-secondary);
+    --tw-prose-headings:    var(--text-primary);
+    --tw-prose-links:       var(--accent);
+    --tw-prose-bold:        var(--text-primary);
+    --tw-prose-code:        var(--text-primary);
+    --tw-prose-pre-bg:      var(--bg-surface);
+    --tw-prose-borders:     var(--border-default);
+    --tw-prose-quote-borders: var(--accent);
+    --tw-prose-captions:    var(--text-muted);
+  }
+}

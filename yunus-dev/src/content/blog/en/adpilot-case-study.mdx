@@ -1,0 +1,62 @@
+---
+title: "ADPilot — LLM-Powered Smart Advertising Platform"
+description: "Building a RAG system and LLM chatbot with Meta & Google API integration for Cyprus SMBs."
+date: "2025-05-01"
+category: "vaka-calismasi"
+tags: ["RAG", "Python", "LLM", "FastAPI", "Meta API"]
+locale: "en"
+slug: "adpilot-case-study"
+---
+
+## Problem
+
+Most small businesses in Cyprus lack the technical knowledge to manage digital advertising independently.
+Meta and Google ad dashboards require expertise in targeting, budget optimization, and content creation.
+
+ADPilot was built to fill this gap: an SMB owner should be able to publish ads through a conversation.
+
+## Solution
+
+Three-layer architecture:
+
+1. **LLM Chatbot** — Communicates in natural language, understands user intent
+2. **RAG System** — Stores business product/service info in a vector database, provides context for ad content generation
+3. **LLM Agent** — Automatically calls Meta and Google APIs to publish the ad
+
+## Technical Details
+
+```python
+# Sample RAG pipeline
+from langchain.vectorstores import Chroma
+from langchain.embeddings import OpenAIEmbeddings
+
+vectorstore = Chroma(
+    embedding_function=OpenAIEmbeddings(),
+    persist_directory="./db"
+)
+
+retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+```
+
+Backend written in FastAPI. Each ad request follows these steps:
+
+1. User intent classification
+2. Context retrieval from business knowledge base via RAG
+3. Ad copy generation with Claude API
+4. Publishing request to Meta/Google API
+
+## Challenges
+
+**API Rate Limiting:** Meta Graph API sandbox limits slowed development. Solved with exponential backoff retry mechanism.
+
+**RAG Hallucination:** Model occasionally generated non-existent product features. Fixed by tightening the retrieval threshold and system prompt constraints.
+
+## Learnings
+
+- RAG quality is directly tied to chunking strategy — overlapping chunks matter
+- Tool calling error handling is critical in LLM agents
+- 5 user interviews with small business owners completely changed UX decisions
+
+## Stack
+
+Python · FastAPI · LangChain · Claude API · Meta Marketing API · Google Ads API · PostgreSQL · React

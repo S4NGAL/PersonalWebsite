@@ -1,0 +1,62 @@
+---
+title: "ADPilot — LLM Destekli Akıllı Reklam Platformu"
+description: "Kıbrıs KOBİ'lerine yönelik, RAG sistemi ve Meta & Google API entegrasyonu içeren LLM chatbot geliştirme süreci."
+date: "2025-05-01"
+category: "vaka-calismasi"
+tags: ["RAG", "Python", "LLM", "FastAPI", "Meta API"]
+locale: "tr"
+slug: "adpilot-vaka-calismasi"
+---
+
+## Problem
+
+Kıbrıs'taki küçük işletmelerin büyük çoğunluğu dijital reklam yönetiminde profesyonel ajans destekine ihtiyaç duyuyor.
+Meta ve Google reklam panelleri teknik bilgi gerektiriyor; hedefleme, bütçe optimizasyonu ve içerik üretimi ayrı uzmanlık alanları.
+
+ADPilot bu boşluğu doldurmak için geliştirildi: bir KOBİ sahibi sohbet ederek reklam yayınlayabilmeli.
+
+## Çözüm
+
+Üç katmanlı mimari:
+
+1. **LLM Chatbot** — Kullanıcıyla doğal dil üzerinden iletişim kurar, niyeti anlar
+2. **RAG Sistemi** — İşletmenin ürün/hizmet bilgilerini vektör veritabanında tutar, reklam içeriği üretiminde bağlam sağlar
+3. **LLM Agent** — Meta ve Google API'larını otomatik çağırarak reklamı yayınlar
+
+## Teknik Detaylar
+
+```python
+# Örnek RAG pipeline
+from langchain.vectorstores import Chroma
+from langchain.embeddings import OpenAIEmbeddings
+
+vectorstore = Chroma(
+    embedding_function=OpenAIEmbeddings(),
+    persist_directory="./db"
+)
+
+retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
+```
+
+Backend FastAPI ile yazıldı. Her reklam isteği şu adımları izliyor:
+
+1. Kullanıcı niyeti sınıflandırması
+2. İşletme bilgilerinden RAG ile bağlam çekme
+3. Claude API ile reklam metni üretimi
+4. Meta/Google API'ya yayın isteği
+
+## Karşılaşılan Zorluklar
+
+**API Rate Limiting:** Meta Graph API'sinin sandbox limitleri geliştirme sürecini yavaşlattı. Exponential backoff ile retry mekanizması eklendi.
+
+**RAG Hallucination:** Model bazen gerçek olmayan ürün özellikleri üretiyordu. Retrieval eşiği düşürülerek ve sistem prompt'u sıkılaştırılarak çözüldü.
+
+## Öğrendiklerim
+
+- RAG kalitesi doğrudan chunk stratejisine bağlı — overlapping chunks önemli
+- LLM agent'larda tool calling hata yönetimi kritik
+- Küçük işletme sahipleriyle yapılan 5 kullanıcı görüşmesi, UX kararlarını tamamen değiştirdi
+
+## Teknolojiler
+
+Python · FastAPI · LangChain · Claude API · Meta Marketing API · Google Ads API · PostgreSQL · React

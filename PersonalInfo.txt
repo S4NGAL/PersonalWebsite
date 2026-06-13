@@ -1,0 +1,95 @@
+Yunus Mümin Aydınoğlu
+İstanbul/Türkiye - Gazimağusa/ Kıbrıs
+Tel no: +90 548 859 39 94 (TRNC) - +90 551 163 65 37 (TR)
+Email: yunusmmn.contact@gmail.com
+Linkedin: linkedin.com/in/yunus-aydinoglu/
+
+Kişisel Bilgi
+Doğu Akdeniz Üniversitesinde son sınıf öğrencisiyim. Şu anda Yazılım ve Yapay Zeka Geliştirme kulübünde başkan yardımcısı olarak görev almaktayım ve ayrıca stajımı Huawei AI Enablement Ar-Ge ofisinde Research & Development Intern olarak yaptım. EmuSoftAI Kulübü ile hem çeşitli etkinlikler hem de okulumuzun imza zirveleri AISummit25-26 zirvelerini gerçekleştirdik.
+Eğtim Bilgisi
+Doğu Akdeniz Üniversitesi
+KKTC (ABET Accredited)            2021- Günümüz
+    • CGPA: 3.06/4
+    • Honor student at: 2021-22Fall, 2022-23Spring, 2023-24Fall, 2023-24Spring
+
+Gaziosmanpaşa Anadolu Lisesi, İstanbul				2018- 2021
+Deneyim
+AI Research Engineering Intern
+Huawei İstanbul R&D Office
+			 July 2024- August 2024
+    • Large Language Models, Machine Learning, PyTorch, Python, Deep Learning, Model Fine-Tuning, NLP, Transformer Models, Recommendation models, NumPy, Pandas.
+
+Eğitimden Sorumlu Başkan Yardımcısı
+Emu Software and AI Development club
+		           Eylül 2023 - Günümüz
+    • Kuzey Kıbrıs’ın en büyük yapay zeka zirvesi olan AISummit’25 ve bu sene de  AISummit’26 zirvesinin organizasyonunda her aşamada yönetim kurulu olarak görev aldım.  https://aisummit.emu.edu.tr/
+    • Online eğitimler ve webinarlar düzenleyerek öğrencilerin sektör hakkında bilgi almasında yardımcı oldum.
+
+
+
+Projeler
+ADPilot - LLM-Powered Smart Advertising Platform(Grad Project)
+    • Kıbrıs’taki küçük işletmeler başta olmak üzere online pazarlama konusunda asistanlık yapan bir LLM chatbot  ve RAG geliştirdim.
+    • Meta ve google API bağlantısı ve LLM agent özelliğiyle chatbot üzerinen reklam yayınlama sistemi entegre ettim.
+DataHarvest (8th place, Teknofest 2025 – Agriculture Category)
+    • KKTC teknofest Tarım yarışmasında 8. Olan DataHarvest projesi ile KKTC ODTÜ KALTEV binasında çalışmalar yürüttüm.
+    • Bu projenin mobil uygulaması için flutter, backend’i için laravel Php, chatbot’u için RAG ve sensör verilerinin yorumlanması için bir öneri algoritması geliştirdim.
+Chip Head - EMU GameJam #4
+    • 48 Saat içerisinde bir gamejam oyunu geliştirdik. git-control, unity 2d ve C# kullanarak algoritmalarını yazdım.
+
+
+Yetenekler
+•Flutter   •Php-Laravel •Python   •C   •Java  •C#   •LLMs   •Java   •RAG •OOP
+•Data Sturctures and Algorithms
+•Machine Learning   •Research & Development •NLP •Pandas, Numpy   •Game Desing & Development •Takım yönetme •Proje yönetme ve planlama •Zaman Yönetimi •Liderlik ve Topluluk Yönetimi •Analitik Düşünme •Sürekli Öğrenme ve Adaptasyon
+
+Diller
+Türkçe: Anadil    İngilizce: Orta-üstü
+Rusça: Başlangıç
+
+Yunus Mümin Aydınoğlu
+İstanbul/Türkiye - Gazimağusa/ Kıbrıs
+Tel no: +90 548 859 39 94 (TRNC) - +90 551 163 65 37 (TR)
+Email: yunusmmn.contact@gmail.com
+Linkedin: linkedin.com/in/yunus-aydinoglu/
+
+Profile
+I am a senior undergraduate student at Eastern Mediterranean University, currently serving as the Vice President of the Software and AI Development Club. I completed my internship as a Research & Development Intern at the Huawei AI Enablement R&D Office. Through the EmuSoft.AI Club, I have organized various events, including the university's signature AI summits, AISummit'25 and AISummit'26.
+Education Information
+Eastern Mediterranean University
+B.S. in Computer Engineering
+TRNC (ABET Accredited)            2021- Still
+    • CGPA: 3.06/4
+    • Honor student at: 2021-22Fall, 2022-23Spring, 2023-24Fall, 2023-24Spring
+
+Gaziosmanpaşa HighSchool,
+İstanbul 2018- 2021
+
+
+Experience
+AI Research Engineering Intern
+Huawei İstanbul R&D Office
+			 July 2024- August 2024
+    • Large Language Models, Machine Learning, PyTorch, Python, Deep Learning, Model Fine-Tuning, NLP, Transformer Models, Recommendation models, NumPy, Pandas.
+
+Vice President Responsible of Activities
+Emu Software and AI Development Club
+		                September 2023 – Still
+    • Served on the executive board for every organizational stage of Northern Cyprus's largest artificial intelligence summits, AISummit’25 and AISummit’26.  https://aisummit.emu.edu.tr/
+    • Organized online training sessions and webinars to help students gain industry insights.
+
+Projects
+ADPilot - LLM-Powered Smart Advertising Platform(Grad Project)
+    • Developed an LLM chatbot and RAG system acting as an online marketing assistant, primarily targeting small businesses in Cyprus.
+    • Integrated an ad publishing system through the chatbot utilizing Meta and Google API connections alongside LLM Agent features.
+DataHarvest (8th place, Teknofest 2025 – Agriculture Category)
+    • Conducted research and development at the TRNC METU KALTEV facility for the DataHarvest project, which secured 8th place in the TRNC Teknofest Agriculture competition.
+    • Developed the mobile application using Flutter, backend using Laravel (PHP), chatbot using RAG, and an endorsement/recommendation algorithm to interpret sensor data.
+Chip Head - EMU GameJam #4
+    • Co-developed a game within a 48-hour timeline during a gamejam. Programmed game logic and algorithms using Unity 2D, C#, and Git for version control.
+
+Skills
+•Technical Skills: Python, C, Java, C#, PHP (Laravel), Flutter, OOP, Data Structures & Algorithms
+•AI & Data Science: Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Machine Learning, Deep Learning, NLP, Pandas, NumPy, Model Fine-Tuning
+•Soft Skills & Management: Team Management, Project Management & Planning, Time Management, Leadership & Community Management, Analytical Thinking, Continuous Learning & Adaptability
+Languages: 		          Turkish: Native    English: B2

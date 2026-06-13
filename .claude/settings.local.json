@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npx --version)",
+      "Read(//usr/bin/**)",
+      "Read(//home/yunus-cachy/.nvm/**)",
+      "Read(//home/yunus-cachy/.local/share/**)",
+      "Read(//home/yunus-cachy/.config/fish/**)",
+      "Read(//home/yunus-cachy/**)",
+      "Read(//usr/local/bin/**)",
+      "Read(//opt/**)",
+      "Bash(pacman -Q nodejs npm)",
+      "Bash(npx create-next-app@14 *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(chromium-cli *)",
+      "Bash(chromium --version)",
+      "Bash(npx playwright *)",
+      "Bash(node *)",
+      "Bash(curl -sI http://localhost:3000/)",
+      "Bash(curl -sv http://localhost:3000/)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(curl -sI http://localhost:3000/tr)",
+      "Bash(curl -v http://localhost:3000/)"
+    ]
+  }
+}

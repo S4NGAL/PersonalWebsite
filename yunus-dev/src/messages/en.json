@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog",
+    "playground": "Playground",
+    "uses": "Uses"
+  },
+  "hero": {
+    "eyebrow": "Hi, I'm",
+    "name": "Yunus Mümin",
+    "tagline": "Software engineer, AI researcher, and community builder.",
+    "bio": "Final-year Computer Engineering student at Eastern Mediterranean University. Interned at Huawei Istanbul R&D, organizing AISummit — TRNC's largest AI conference.",
+    "cta_projects": "View My Work",
+    "cta_contact": "Get In Touch",
+    "available": "Open to opportunities"
+  },
+  "stats": {
+    "gpa": "Honor Student",
+    "gpa_value": "3.06 GPA",
+    "teknofest": "Teknofest 2025",
+    "teknofest_value": "8th Place",
+    "aisummit": "AISummit Organizer",
+    "aisummit_value": "2× Summit"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Things I've built",
+    "filter_all": "All",
+    "filter_ai": "AI",
+    "filter_mobile": "Mobile",
+    "filter_game": "Game",
+    "case_study": "Case Study",
+    "view_on": "View on",
+    "coming_soon": "Coming Soon",
+    "adpilot_desc": "LLM-powered ad platform. Chatbot and RAG system for Cyprus SMBs, with Meta & Google API integration.",
+    "dataharvest_desc": "Agricultural IoT platform. Sensor data interpretation, recommendation algorithm, Flutter mobile app, Laravel backend.",
+    "chiphead_desc": "EMU GameJam #4 game built in 48 hours. Algorithms written with Unity 2D and C#.",
+    "designpilot_desc": "AI-powered design analysis tool. Color theory, composition, and message delivery scoring."
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Technical posts and case studies",
+    "read_more": "Read More",
+    "filter_all": "All",
+    "filter_case_study": "Case Study",
+    "filter_technical": "Technical",
+    "filter_experience": "Experience"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Who I am and where I'm headed",
+    "download_cv": "Download CV",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills"
+  },
+  "uses": {
+    "title": "Uses",
+    "subtitle": "My daily tools and setup"
+  },
+  "playground": {
+    "title": "Playground",
+    "subtitle": "Browser-based Python demos",
+    "loading": "Loading Python environment...",
+    "run": "Run",
+    "reset": "Reset"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project in mind?",
+    "name": "Your Name",
+    "email": "Email",
+    "message": "Your Message",
+    "send": "Send",
+    "linkedin": "Connect on LinkedIn"
+  },
+  "footer": {
+    "built_with": "Built with Next.js",
+    "rights": "All rights reserved"
+  },
+  "meta": {
+    "site_name": "Yunus Mümin Aydınoğlu",
+    "description": "Software engineer & AI researcher. Flutter, Python, LLM, RAG.",
+    "og_title": "Yunus Mümin Aydınoğlu — Portfolio"
+  }
+}

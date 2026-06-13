@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "projects": "Projeler",
+    "blog": "Blog",
+    "playground": "Playground",
+    "uses": "Araçlarım"
+  },
+  "hero": {
+    "eyebrow": "Merhaba, ben",
+    "name": "Yunus Mümin",
+    "tagline": "Yazılım mühendisi, yapay zeka araştırmacısı ve topluluk oluşturucusu.",
+    "bio": "Doğu Akdeniz Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisi. Huawei İstanbul Ar-Ge ofisinde staj yaptım, KKTC'nin en büyük yapay zeka zirvesi AISummit'i organize ediyorum.",
+    "cta_projects": "Projelerime Bak",
+    "cta_contact": "İletişime Geç",
+    "available": "İş fırsatlarına açığım"
+  },
+  "stats": {
+    "gpa": "Onur Öğrencisi",
+    "gpa_value": "3.06 GPA",
+    "teknofest": "Teknofest 2025",
+    "teknofest_value": "8. Yer",
+    "aisummit": "AISummit Organizatörü",
+    "aisummit_value": "2× Zirve"
+  },
+  "projects": {
+    "title": "Projeler",
+    "subtitle": "Üzerinde çalıştığım şeyler",
+    "filter_all": "Tümü",
+    "filter_ai": "Yapay Zeka",
+    "filter_mobile": "Mobil",
+    "filter_game": "Oyun",
+    "case_study": "Vaka çalışması",
+    "view_on": "İncelemeye Git",
+    "coming_soon": "Yakında",
+    "adpilot_desc": "LLM destekli reklam platformu. Kıbrıs KOBİ'lerine yönelik chatbot, RAG sistemi ve Meta & Google API entegrasyonu.",
+    "dataharvest_desc": "Tarım IoT platformu. Sensör verisi yorumlama, öneri algoritması, Flutter mobil uygulama, Laravel backend.",
+    "chiphead_desc": "48 saatte geliştirilen EMU GameJam #4 oyunu. Unity 2D ve C# ile yazılmış algoritmalar.",
+    "designpilot_desc": "AI destekli tasarım analiz aracı. Renk teorisi, kompozisyon ve mesaj aktarım skoru."
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Teknik yazılar ve vaka çalışmaları",
+    "read_more": "Devamını Oku",
+    "filter_all": "Tümü",
+    "filter_case_study": "Vaka Çalışması",
+    "filter_technical": "Teknik",
+    "filter_experience": "Deneyim"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "subtitle": "Kim olduğum ve nereye gidiyorum",
+    "download_cv": "CV İndir",
+    "experience": "Deneyim",
+    "education": "Eğitim",
+    "skills": "Yetenekler"
+  },
+  "uses": {
+    "title": "Araçlarım",
+    "subtitle": "Günlük kullandığım araçlar ve kurulum"
+  },
+  "playground": {
+    "title": "Playground",
+    "subtitle": "Tarayıcıda çalışan Python demoları",
+    "loading": "Python ortamı yükleniyor...",
+    "run": "Çalıştır",
+    "reset": "Sıfırla"
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Bir proje fikrin mi var?",
+    "name": "Adınız",
+    "email": "E-posta",
+    "message": "Mesajınız",
+    "send": "Gönder",
+    "linkedin": "LinkedIn'de Bağlanalım"
+  },
+  "footer": {
+    "built_with": "Next.js ile yapıldı",
+    "rights": "Tüm hakları saklıdır"
+  },
+  "meta": {
+    "site_name": "Yunus Mümin Aydınoğlu",
+    "description": "Yazılım mühendisi, AI araştırmacısı. Flutter, Python, LLM, RAG.",
+    "og_title": "Yunus Mümin Aydınoğlu — Portfolyo"
+  }
+}
