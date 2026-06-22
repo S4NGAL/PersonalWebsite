@@ -25,29 +25,30 @@
     --accent-text:    #2E4540;
   }
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg-base:        #1A1710;
-      --bg-surface:     #221F16;
-      --bg-subtle:      #2C2820;
-      --bg-muted:       #38332A;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-base:        #15130F;   /* daha koyu, derinlik için */
+    --bg-surface:     #1F1C15;   /* kartlar — base'den daha net ayrışıyor */
+    --bg-subtle:      #2A2519;   /* hover/input — daha görünür adım */
+    --bg-muted:       #3A3424;   /* ayırıcı — artık gerçekten "muted" */
 
-      --text-primary:   #F0EBE2;
-      --text-secondary: #C8BFB0;
-      --text-muted:     #948070;
-      --text-faint:     #6A5E52;
+    --text-primary:   #F5F0E6;   /* biraz daha parlak beyaz-krem */
+    --text-secondary: #D4C9B8;   /* önemli: eskisinden daha açık */
+    --text-muted:     #A89882;   /* okunaklı kalıyor ama ikincil */
+    --text-faint:     #7A6E5C;
 
-      --border-default: #3E3830;
-      --border-strong:  #56504A;
-      --border-subtle:  #2C2820;
+    --border-default: #4A4332;
+    --border-strong:  #65594A;
+    --border-subtle:  #2A2519;
 
-      --accent:         #6A9A8E;
-      --accent-hover:   #7EB0A4;
-      --accent-active:  #90C4B8;
-      --accent-subtle:  #1E2E2B;
-      --accent-text:    #90C4B8;
-    }
+    /* Aksan: daha canlı, doygunluğu artırılmış sage */
+    --accent:         #7FB5A6;
+    --accent-hover:   #94C9BA;
+    --accent-active:  #A8DCCD;
+    --accent-subtle:  #1E332E;
+    --accent-text:    #A8DCCD;
   }
+}
 
   * {
     border-color: var(--border-default);
